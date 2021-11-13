@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <!-- <link rel="stylesheet" href="css/anamation.css"> -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="airDatePic/node_modules/air-datepicker/air-datepicker.css">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="bgc"><img src="images/dest/bgc.png" alt="alt"></div>
+        <div class="header">
+            <a href="#" class="header__logo">
+                <img src="images/dest/logo.png" alt="alt">
+            </a>
+           <div class="monBlan">
+               <div class="startOn">
+                   <h1>monblanproject</h1>
+                   <span>Start on 17-02-2016</span>
+               </div>
+               <div class="posts">
+                   <span><span class="weight">870</span> posts</span>
+                   <span><span class="weight">11,787</span> followers</span>
+                   <span><span class="weight">121</span> following</span>
+               </div>
+               <div class="date">
+                    <p>Date</p>
+                    <div class="inputs">
+                        <input type='text' class='datepicker-here' id="calendar" placeholder="from">
+                        <span class="close closeIpadPro"><img src="images/dest/close.png" alt="alt"></span>
+                        <label class="calendar_proba" for="calendar"></label>
+                    </div>
+                    <div class="inputsTwo">
+                        <input type='text' class='datepicker-here' id="calendarTwo">
+                        <span class="close"><img src="images/dest/close.png" alt="alt"></span>
+                        <label class="calendar_probaTwo" for="calendarTwo"></label>
+                    </div>
+               </div>
+           </div>
+        </div>
+    </header>
+
+     <main>
+        <div class="tabs">
+            <div class="tabs__nav">
+                <div class="tabs__nav-btn active" data-tab="#tab_1">
+                    <div class="cubes">
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                    </div>
+                </div>
+                <div class="tabs__nav-btn" data-tab="#tab_2">
+                    <div class="cubesTwo">
+                        <div class="cubLine">
+                            <div class="cube"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="cubLine">
+                            <div class="cube"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="cubLine">
+                            <div class="cube"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs__content">
+                <div class="tabs__item active" id="tab_1">
+                    <div class="projectItems">
+                        <div class="item">
+                            <img src="images/dest/1.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/2.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/3.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/4.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/5.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/6.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/7.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/8.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/9.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__item" id="tab_2">
+                    <div class="projectItems projectItemsTwo">
+                        <div class="item itemTwo">
+                            <img src="images/dest/10.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item itemTwo">
+                            <img src="images/dest/11.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item itemTwo">
+                            <img src="images/dest/12.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item itemTwo">
+                            <img src="images/dest/13.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item itemTwo">
+                            <img src="images/dest/14.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item itemTwo">
+                            <img src="images/dest/15.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item itemTwo">
+                            <img src="images/dest/16.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item itemTwo">
+                            <img src="images/dest/17.png" alt="alt">
+                            <div class="contentWrap">
+                                <div class="content">
+                                    <h2>Today</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>128</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2>9-08-2016</h2>
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <img src="images/dest/heard.png" alt="alt">
+                                            <span>67</span>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="images/dest/message.png" alt="alt">
+                                            <span>22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="imgUpl">
+                                    <h2>Image upload</h2>
+                                    <span>11-04-2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">LOAD MORE</button>
+            <div class="bgc-2"><img src="images/dest/bgc-2.png" alt="alt"></div>
+        </div>  
+     </main>
+
+     <footer>
+         
+     </footer>
+ 
+
+
+
+
+
+
+
+
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="airDatePic/node_modules/air-datepicker/air-datepicker.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

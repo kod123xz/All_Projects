@@ -1,0 +1,492 @@
+* {
+  box-sizing: border-box
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #000;
+  max-width: 1488px;
+  margin: 0 auto
+}
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0
+}
+p {
+  margin: 0;
+  padding: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0
+}
+.tabs__nav-btn:hover {
+  cursor: pointer
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle
+}
+button {
+  outline: 0
+}
+button:hover {
+  cursor: pointer
+}
+input {
+  outline: 0;
+  padding-left: 5px
+}
+header {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 12px 5px -5px rgba(34,60,80,.08) inset;
+  min-height: 172px
+}
+main {
+  box-shadow: 0 5px 17px -13px rgba(34,60,80,.62) inset;
+  background-color: #e5e5e5
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 172px
+}
+.monBlan {
+  display: flex;
+  flex-direction: column
+}
+.startOn {
+  display: flex;
+  align-items: center
+}
+.startOn h1 {
+  font-size: 12px;
+  letter-spacing: 1px
+}
+.startOn span {
+  border: 1px solid #3d8eda;
+  color: #3d8eda;
+  padding: 5px 7px;
+  margin-left: 10px;
+  font-size: 12px;
+  margin-top: 5px;
+  border-radius: 2px
+}
+.posts {
+  margin-top: 5px
+}
+.posts span {
+  font-size: 10px;
+  margin-right: 10px
+}
+.posts span .weight {
+  font-weight: 700;
+  margin-right: 0
+}
+.date {
+  margin-top: 10px;
+  display: flex;
+  align-items: center
+}
+.date p {
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 10px
+}
+.date input {
+  max-width: 127px;
+  margin-right: 3px;
+  min-height: 28px;
+  border-radius: 5px;
+  border: 1px solid
+}
+.bgc {
+  display: none
+}
+.tabs {
+  padding: 10px;
+  min-height: 1010px
+}
+.tabs .btn {
+  background-color: transparent;
+  display: block;
+  border: 1px solid #929292;
+  margin: 20px auto;
+  padding: 7px 25px;
+  color: #929292;
+  border-radius: 30px;
+  transition: all .3s ease-in-out
+}
+.tabs .btn:hover {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer
+}
+.tabs .bgc-2 {
+  display: none
+}
+.tabs__nav {
+  display: flex;
+  justify-content: flex-end
+}
+.tabs__nav .tabs__nav-btn {
+  border: none;
+  padding: 0;
+  background: 0 0
+}
+.tabs__nav .tabs__nav-btn .cubes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30px
+}
+.tabs__nav .tabs__nav-btn .cubes .cube {
+  width: 6px;
+  height: 6px;
+  background-color: #c8c7c7;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 2px
+}
+.tabs__nav .tabs__nav-btn .cubesTwo {
+  display: flex;
+  flex-direction: column;
+  width: 27px
+}
+.tabs__nav .tabs__nav-btn .cubesTwo .cubLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px
+}
+.tabs__nav .tabs__nav-btn .cubesTwo .cubLine .cube {
+  width: 6px;
+  height: 6px;
+  background-color: #c8c7c7
+}
+.tabs__nav .tabs__nav-btn .cubesTwo .cubLine .line {
+  height: 2px;
+  width: 17px;
+  background-color: #c8c7c7
+}
+.tabs__nav .tabs__nav-btn.active .cubes .cube {
+  background-color: #3d8eda
+}
+.tabs__nav .tabs__nav-btn.active .cubesTwo .cubLine .cube {
+  background-color: #3d8eda
+}
+.tabs__nav .tabs__nav-btn.active .cubesTwo .cubLine .line {
+  background-color: #3d8eda
+}
+.tabs__content .tabs__item {
+  display: none
+}
+.tabs__content .tabs__item.active {
+  display: block
+}
+.projectItems {
+  margin-top: 20px
+}
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  transition: .2s ease-in-out;
+  overflow: hidden
+}
+.item:hover {
+  box-shadow: 0 5px 10px -6px #223c50
+}
+.contentWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%
+}
+.content h2 {
+  font-size: 10px;
+  margin-bottom: 5px
+}
+.content .icons {
+  display: flex
+}
+.content .icons .icon {
+  display: flex;
+  align-items: center;
+  margin-right: 7px
+}
+.content .icons .icon img {
+  width: 9px
+}
+.content .icons .icon h2 {
+  font-size: 10px
+}
+.content .icons .icon span {
+  font-size: 8px;
+  font-weight: 700;
+  margin-left: 2px
+}
+.imgUpl {
+  display: flex;
+  flex-direction: column
+}
+.imgUpl h2 {
+  font-size: 10px;
+  margin-bottom: 5px
+}
+.imgUpl span {
+  font-size: 8px;
+  font-weight: 700
+}
+.projectItemsTwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.itemTwo {
+  flex-direction: column;
+  width: 45%;
+  margin-left: 5px;
+  margin-right: 5px
+}
+.itemTwo img {
+  width: 100%
+}
+.itemTwo .contentWrap {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px
+}
+.itemTwo .contentWrap .content {
+  width: 33%
+}
+.itemTwo .contentWrap .content .icons {
+  flex-direction: column
+}
+.itemTwo .contentWrap .content .icons .icon {
+  margin-top: 5px
+}
+.itemTwo .contentWrap .content .icons .icon span {
+  margin-left: 6px
+}
+.itemTwo .contentWrap .imgUpl {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px
+}
+.inputs {
+  position: relative
+}
+.calendar_proba {
+  height: 26px;
+  width: 26px;
+  background-image: url(../images/dest/calendar.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  background-color: #ebebeb;
+  background-position: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+.inputsTwo {
+  position: relative
+}
+.calendar_probaTwo {
+  height: 26px;
+  width: 26px;
+  background-image: url(../images/dest/calendar.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  background-color: #ebebeb;
+  background-position: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+.close {
+  height: 26px;
+  width: 26px;
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  right: 30px;
+  border-right: 1px solid #000;
+  top: 3px
+}
+.close img {
+  min-width: 12px
+}
+@media (min-width:768px) {
+  .header__logo {
+    margin-right: 30px
+  }
+  .content h2 {
+    font-size: 16px;
+    margin-bottom: 10px
+  }
+  .content .icons .icon span {
+    font-size: 14px;
+    margin-left: 7px
+  }
+  .imgUpl h2 {
+    font-size: 16px
+  }
+  .imgUpl span {
+    font-size: 14px
+  }
+  .content .icons .icon img {
+    width: 100%
+  }
+  .content .icons .icon {
+    margin-right: 15px
+  }
+  .tabs {
+    padding: 10px 10%
+  }
+  .itemTwo .contentWrap .content .icons .icon img {
+    width: 9px
+  }
+  .itemTwo {
+    width: 30%;
+    margin-bottom: 20px
+  }
+  .itemTwo .contentWrap .content h2 {
+    font-size: 10px
+  }
+  .itemTwo .contentWrap .content .icons .icon span {
+    font-size: 8px
+  }
+  .itemTwo .contentWrap .imgUpl h2 {
+    font-size: 10px
+  }
+  .itemTwo .contentWrap .imgUpl span {
+    font-size: 8px
+  }
+  .calendar_proba {
+    top: 1px
+  }
+  .calendar_probaTwo {
+    top: 1px
+  }
+  .close {
+    top: 1px
+  }
+}
+@media (min-width:1024px) {
+  header {
+    display: flex;
+    align-items: center;
+    position: relative
+  }
+  .header {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+    padding: 5px;
+    justify-content: unset;
+    background-color: rgba(255,255,255,.67);
+    padding-left: 380px
+  }
+  .header__logo {
+    margin-right: 60px;
+    z-index: 2
+  }
+  .monBlan {
+    z-index: 2
+  }
+  .startOn {
+    flex-direction: row
+  }
+  .date .inputs {
+    flex-direction: row
+  }
+  .date .inputs input:nth-child(2) {
+    margin-top: 0
+  }
+  .date .inputs input {
+    margin-right: 5px
+  }
+  .bgc {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0
+  }
+  .startOn h1 {
+    font-size: 24px
+  }
+  .startOn span {
+    font-size: 13px;
+    margin-top: 0;
+    margin-left: 15px
+  }
+  .posts span {
+    font-size: 14px
+  }
+  .date p {
+    font-size: 16px
+  }
+  .posts {
+    margin-top: 10px
+  }
+  .tabs {
+    padding: 20px 22%;
+    position: relative
+  }
+  .tabs .bgc-2 {
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    right: 0
+  }
+  .itemTwo {
+    width: 23%
+  }
+  .itemTwo .contentWrap .content .icons .icon img {
+    width: 9px
+  }
+  .itemTwo .contentWrap .content h2 {
+    font-size: 10px
+  }
+  .itemTwo .contentWrap .content .icons .icon span {
+    font-size: 8px
+  }
+  .itemTwo .contentWrap .imgUpl h2 {
+    font-size: 10px
+  }
+  .itemTwo .contentWrap .imgUpl span {
+    font-size: 8px
+  }
+  .calendar_proba {
+    right: 6px
+  }
+  .closeIpadPro {
+    right: 32px
+  }
+}
